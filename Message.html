@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linked Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-left">
+            <a href="index.html" class="logo"><img src="logo.png"></a>
+            <div class="search-box">
+                <img src="search.png">
+                <input type="text" placeholder="search">
+            </div>
+        </div>
+        <div class="navbar-center">
+            <ul>
+                <li><a href="index.html" class="active-link"><img src="home.png"><span>Home</span></a></li>
+                <li><a href="mynetwork.html"><img src="network.png"><span>My Network</span></a></li>
+                <li><a href="myjobs.html"><img src="jobs.png"><span>Jobs</span></a></li>
+                <li><a href="Message.html"><img src="message.png"><span>Messaging</span></a></li>
+                <li><a href="Notifications.html"><img src="notification.png"><span>Notifications</span></a></li>
+            </ul>
+        </div>
+        <div class="navbar-right">
+            <div class="online">
+                <img src="user-1.png" class="nav-profilr-img" onclick="toggleMenu()">
+            </div>
+
+        </div>
+
+
+        <div class="profile-menu-wrap" id="profile-menu">
+            <div class="profile-menu">
+                <div class="user-info">
+                    <img src="user-1.png" alt="">
+                    <div>
+                        <h3>Anand Raj Pandey</h3>
+                        <a href="profile.html">See Your Profile</a>
+                    </div>
+                </div>
+                <hr>
+                <a href="feedback.html" class="profile-menu-link">
+                    <img src="feedback.png">
+                    <p>Give Feedback</p>
+                    <span>></span>
+                </a>
+                <a href="settingsandprivacy.html" class="profile-menu-link">
+                    <img src="setting.png">
+                    <p>setting & Privacy</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="help.png">
+                    <p>Help & support</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="display.png">
+                    <p>Display & Accessibility</p>
+                    <span>></span>
+                </a>
+                <a href="loginregisteration.html" class="profile-menu-link">
+                    <img src="logout.png">
+                    <p>Logout</p>
+                    <span>></span>
+                </a>
+
+            </div>
+        </div>
+
+    </nav>
+    <div class="container">
+        <div class="left-sidebar">
+            <div class="messages_left_container_box1">
+                <div class="message_left_container_box1_title">
+                    <p>Messaging</p>
+                    <div class="icons_container"></div>
+                </div>
+                <div class="message_input_container">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input class="message_input" id="search_message" type="text" placeholder="search messages">
+                    <i class="fa-solid fa-sliders"></i>
+                </div>
+
+                <div class="meassage_profil_container">
+                    <div class="message_profils_sider">
+                        <div class="message_profil_item message_one others_message">
+                            <div class="message_profil_photo">
+                                <img src="people1.webp" alt="">
+                            </div>
+                            <div class="message_profil_name_and_text">
+                                <p><span class="name_pro">Amit Kumar</span>&nbsp; &nbsp; &nbsp;  <span class="message_profil_date">20 dec.</span>
+                                     <i class="fa-solid fa-envelope"></i>
+                                    <i class="fa-solid fa-comment-slash"></i>
+                                </p>
+                                <p>I just <br> received your CV</p>                             
+                            </div>
+                        </div>
+
+                        <div class="message_profil_item others_message">
+                            <div class="message_profil_photo">
+                                <img src="people2.webp" alt="">
+                            </div>
+                            <div class="message_profil_name_and_text">
+                                <p><span class="name_pro">Anurag Paul</span> &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;   <span class="message_profil_date">19 nov.</span> <i class="fa-solid fa-envelope"></i>
+                                    <i class="fa-solid fa-comment-slash"></i></p>
+                                <p>it was nice  <br>  talking to you </p>
+                            </div>
+                        </div>
+                        <div class="message_profil_item others_message">
+                            <div class="message_profil_photo">
+                                <img src="people3.webp" alt="">
+                            </div>
+                            <div class="message_profil_name_and_text">
+                                <p><span class="name_pro">Ashish George</span> &nbsp; <span class="message_profil_date">19 nov.</span><i class="fa-solid fa-envelope"></i>
+                                    <i class="fa-solid fa-comment-slash"></i></p>
+                                <p>George:I will let you know</p>
+                            </div>
+                        </div>
+                        <div class="message_profil_item others_message">
+                            <div class="message_profil_photo">
+                                <img src="people4.webp" alt="">
+                            </div>
+                            <div class="message_profil_name_and_text">
+                                <p> <span class="name_pro">Mohit Kumar</span> &nbsp; &nbsp; <span class="message_profil_date">15 nov.</span><i class="fa-solid fa-envelope"></i>
+                                    <i class="fa-solid fa-comment-slash"></i></p>
+                                <p>Mohit: Just <br> received your cv</p>
+                            </div>
+                        </div>
+                        <div class="message_profil_item others_message">
+                            <div class="message_profil_photo">
+                                <img src="people5.webp" alt="">
+                            </div>
+                            <div class="message_profil_name_and_text">
+                                <p><span class="name_pro">Mark Rose</span> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  <span class="message_profil_date">13 nov.</span><i class="fa-solid fa-envelope"></i>
+                                    <i class="fa-solid fa-comment-slash"></i></p>
+                                <p>Mark: Why did you <br> send it here?</p>
+                            </div>
+                        </div>
+                        <div class="message_profil_item others_message">
+                            <div class="message_profil_photo">
+                                <img src="people6.webp" alt="">
+                            </div>
+                            <div class="message_profil_name_and_text">
+                                <p> <span class="name_pro">Sejal Pandey</span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  <span class="message_profil_date">6 nov.</span><i class="fa-solid fa-envelope"></i>
+                                    <i class="fa-solid fa-comment-slash"></i></p>
+                                <p>Sejal: ok i'll tell you <br> about the opening</p>
+                            </div>
+                        </div>
+                        <div class="message_profil_item others_message">
+                            <div class="message_profil_photo">
+                                <img src="user-2.png" alt="">
+                            </div>
+                            <div class="message_profil_name_and_text">
+                                <p><span class="name_pro">Ravi </span> &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;<span class="message_profil_date">5 nov.</span><i class="fa-solid fa-envelope"></i>
+                                    <i class="fa-solid fa-comment-slash"></i></p>
+                                <p>Ravi: Are you interesting  <br> for an internship? </p>
+                            </div>
+                        </div>
+                        <div class="message_profil_item others_message">
+                            <div class="message_profil_photo">
+                                <img src="user-3.png" alt="">
+                            </div>
+                            <div class="message_profil_name_and_text">
+                                <p><span class="name_pro">Narendra Tiwari</span> &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; <span class="message_profil_date">20 mar.</span><i class="fa-solid fa-envelope"></i>
+                                    <i class="fa-solid fa-comment-slash"></i></p>
+                                <p>Narendra: i'm from jaipur <Br> where r u from.</Br></p>
+                            </div>
+                        </div>
+                        <div class="message_profil_item others_message">
+                            <div class="message_profil_photo">
+                                <img src="user-4.png" alt="">
+                            </div>
+                            <div class="message_profil_name_and_text">
+                                <p> <span class="name_pro">Patric </span> &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; <span class="message_profil_date">10 mar.</span><i class="fa-solid fa-envelope"></i>
+                                    <i class="fa-solid fa-comment-slash"></i></p>
+                                <p>Patric: I'm coming brother</p>
+                            </div>
+                        </div>
+                        <div class="message_profil_item others_message">
+                            <div class="message_profil_photo">
+                                <img src="user-5.png" alt="">
+                            </div>
+                            <div class="message_profil_name_and_text">
+                                <p> <span class="name_pro">Abhishek gupta </span> &nbsp; &nbsp;&nbsp; &nbsp; <span class="message_profil_date">11 feb.</span><i class="fa-solid fa-envelope"></i>
+                                    <i class="fa-solid fa-comment-slash"></i></p>
+                                <p>Abhishek: i'm in delhi brother </p>
+                            </div>
+                        </div>
+                        <div class="message_profil_item others_message">
+                            <div class="message_profil_photo">
+                                <img src="post-image-3.png" alt="">
+                            </div>
+                            <div class="message_profil_name_and_text">
+                                <p> <span class="name_pro">Jonas louis </span> &nbsp; &nbsp;&nbsp; &nbsp; <span class="message_profil_date">11 sept.</span><i class="fa-solid fa-envelope"></i>
+                                    <i class="fa-solid fa-comment-slash"></i></p>
+                                <p>Jonas: Ya brother it's fine </p>
+                            </div>
+                        </div>
+                        <div class="message_profil_item others_message">
+                            <div class="message_profil_photo">
+                                <img src="post-image-4.png" alt="">
+                            </div>
+                            <div class="message_profil_name_and_text">
+                                <p><span class="name_pro">Shubham </span> &nbsp; &nbsp;&nbsp; &nbsp; <span class="message_profil_date">11 oct.</span><i class="fa-solid fa-envelope"></i>
+                                    <i class="fa-solid fa-comment-slash"></i></p>
+                                <p>Shubham: Day after Tomorrow</p>
+                            </div>
+                        </div>
+                        <div class="message_profil_item others_message">
+                            <div class="message_profil_photo">
+                                <img src="post-image-2.png" alt="">
+                            </div>
+                            <div class="message_profil_name_and_text">
+                                <p><span class="name_pro">Dipti Pandey</span> &nbsp; &nbsp;&nbsp; &nbsp; <span class="message_profil_date">11 Nov.</span><i class="fa-solid fa-envelope"></i>
+                                    <i class="fa-solid fa-comment-slash"></i></p>
+                                <p>Dipti: i'll tell you later </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+        </div>
+        <div class="main-content">
+            <section class="messages_left_container_box2">
+                <div class="discution_header">
+                    <div class="discution_header_name_and_text">
+                        <h3>Amit Kumar</h3>
+                        <div class="discution-header_text">
+                            <div class="discution_online"></div>
+                            <p> Available on mobile</p>
+                        </div>
+                    </div>
+                    <div class="discution_header_icons"></div>
+                </div>
+
+                <div class="discution_container">
+                    <div class="discution_content">
+                        <div class="discution_friend_profil">
+                            <div class="discution_friend_profil_photo"><img src="people1.webp" alt=""></div>
+                            <h3>Amit Kumar <span>- 1st</span></h3>
+                            <p>Senior Fullstack Developer</p>
+                        </div>
+                        <div class="discution_line">
+                            <p>20 dec.</p>
+                        </div>
+
+                        <!-- <div class="conversation_messages"> -->
+                            <div class="my_message">
+                                <div class="my_message_photo_profil"><img src="people1.webp" alt=""></div>
+                                <div class="my_message_text">
+
+                                    <h3><a href="#">Amit Kumar</a> <span>12:00</span></h3>
+                                    <p>Hello Anand, would you like to join our team?
+                                        <br>You have the junior profile that we are looking for</p>
+                                </div>
+                            </div>
+                            <div class="my_message">
+                                <div class="my_message_photo_profil"><img src="user-1.png" alt=""></div>
+                                <div class="my_message_text">
+                                    <h3><a href="#">Anand Raj Pandey</a> <span>12:05</span></h3>
+                                    <p>Hello, delighted to know that my profile meets <br>your expectations. It is with pleasure that I will join your team. </p>
+                                </div>
+                            </div>
+                            <div class="my_message">
+                                <div class="my_message_photo_profil"><img src="people1.webp" alt=""></div>
+                                <div class="my_message_text">
+                                    <h3><a href="#">Amit Kumar</a> <span>12:10</span></h3>
+                                    <p>We are a team of Devs, most of whom  <br> are seniors, we are looking <br> for a junior profile to assist us, I think
+                                        <br>  you will do the job </p>
+                                </div>
+                            </div>
+                            <div class="my_message">
+                                <div class="my_message_photo_profil"><img src="user-1.png" alt=""></div>
+                                <div class="my_message_text">
+                                    <h3><a href="#">Anand Raj Pandey</a> <span>12:11</span></h3>
+                                    <p> What technologies do you mainly work on? </p>
+                                </div>
+                            </div>
+                            <div class="my_message">
+                                <div class="my_message_photo_profil"><img src="people1.webp" alt=""></div>
+                                <div class="my_message_text">
+                                    <h3><a href="#">Amit Kumar</a> <span>12:15</span></h3>
+                                    <p> Most of our projects revolve around the web. <br> However, we also work on applications <br> and blockchains. We mainly use<br> HTML, Css, js, bootstrap.</p>
+                                </div>
+                            </div>
+                            <div class="my_message">
+                                <div class="my_message_photo_profil"><img src="user-1.png" alt=""></div>
+                                <div class="my_message_text">
+                                    <h3><a href="#">Anand Raj Pandey</a> <span>12:16</span></h3>
+                                    <p>Haa okay it's cool because I do <br> pretty well in these languages. </p>
+                                </div>
+                            </div>
+                            <div class="my_message">
+                                <div class="my_message_photo_profil"><img src="people1.webp" alt=""></div>
+                                <div class="my_message_text">
+                                    <h3><a href="#">Amit Kumar</a> <span>12:30</span></h3>
+                                    <p>Can you send your CV to this address. amitkumar@gmail.com .</p>
+                                </div>
+                            </div>
+                            
+                            <div class="my_message">
+                                <div class="my_message_photo_profil"><img src="user-1.png" alt=""></div>
+                                <div class="my_message_text">
+                                    <h3><a href="#">Anand Raj Pandey</a> <span>12:35</span></h3>
+                                    <p>Okay, I'll do it right away. </p>
+                                </div>
+                            </div>
+                            <div class="my_message">
+                                <div class="my_message_photo_profil"><img src="people1.webp" alt=""></div>
+                                <div class="my_message_text">
+                                    <h3><a href="#">Amit Kumar</a> <span>19:20</span></h3>
+                                    <p>I just received your CV</p>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+                
+                <textarea name="message" id="message" placeholder="write a message" class="send_message"></textarea>
+                <div class="discution_icons_erea">
+                    <div class="icons_erea">
+                        <i class="fa-solid fa-image"></i>
+                        <i class="fa-solid fa-folder-plus"></i>
+                        <i class="fa-solid fa-face-smile"></i>
+                    </div>
+                    <div class="send_text">
+                        <p>send </p>
+                        <p>...</p>
+                    </div>
+                </div>
+
+
+            </section>
+        </div>
+        <div class="right-sidebar">
+            
+            <div class="sidebar-ad">
+                <small>Ad &middot; &middot; &middot;</small>
+                <p>Master the 5 principle of web Design</p>
+                <div>
+                    <img src="user-1.png">
+                    <img src="logo.png">
+                </div>
+                <b>Brand and Demand in Samsung</b>
+                <a href="#" class="ad-link">Learn More</a>
+            </div>
+            <div class="sidebar-useful-links">
+                <a href="#">About</a>
+                <a href="#">Accessibility</a>
+                <a href="#">Help center</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Advertising</a>
+                <a href="#">Get the App</a>
+                <a href="#">More</a>
+                <div class="copyright-msg">
+                    <img src="logo.png">
+                    <p>Linkedup &#169; 2023. All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        
+    <script src="script.js"></script>
+</body>
+
+</html>

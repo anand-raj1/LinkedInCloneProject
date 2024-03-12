@@ -1,0 +1,103 @@
+.profile-container2{
+    background: #fff;
+    height: 80%;
+}
+.profile-description-for-group{
+    background: #fff;
+    padding: 20px 4% 30px;
+    margin: 25px 0;
+   
+}
+.profile-description-for-group .anktag{
+    padding: 10px;
+}
+.profile-description-for-group .anktag .req{
+    padding-left: 40px;
+}
+.profile-description-for-group .anktag button{
+    float: right;
+    background: transparent;
+    padding: 5px 30px 5px 30px;
+    color: #0a66c2;
+    font-size: 1rem;
+    border: 3px solid #0a66c2;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.discover-part{
+    position: relative;
+    transform: translate(30%,35%);
+}
+.discover-part img{
+    margin-left: 40px;
+}
+.discover-part button{
+    background: transparent;
+    padding: 5px 30px 5px 30px;
+    color: #0a66c2;
+    font-size: 1rem;
+    border: 3px solid #0a66c2;
+    border-radius: 30px;
+    cursor: pointer;
+    margin: 15px 0 0 60px;
+}
+.discover-part h2{
+    margin-left: 30px;
+}
+.span-part{
+    margin-top: 10px;
+}
+.span-part span.span2{
+    margin-left: 30px;
+}
+.sidebar-people{
+    margin-left: 0px;
+}
+@media only screen and (max-width:600px){
+    .discover-part{
+        position: relative;
+        transform: translate(25%,10%);
+    }
+    .profile-description-for-group{
+        height: 120%;
+    }
+    .right-sidebar2{
+        flex-basis: 100%;
+    }
+}
+@media only screen and (max-width: 768px){
+    .discover-part{
+        position: relative;
+        transform: translate(25%,10%);
+    }
+    .profile-description-for-group{
+        height: 120%;
+    }
+    .right-sidebar2{
+        flex-basis: 100%;
+    }
+}
+@media only screen and (max-width: 992px){
+    .discover-part{
+        position: relative;
+        transform: translate(25%,10%);
+    }
+    .profile-description-for-group{
+        height: 120%;
+    }
+    .right-sidebar2{
+        flex-basis: 100%;
+    }
+}
+@media only screen and (max-width: 1200px){
+    .discover-part{
+        position: relative;
+        transform: translate(25%,10%);
+    }
+    .profile-description-for-group{
+        height: 120%;
+    }
+    .right-sidebar2{
+        flex-basis: 100%;
+    }
+}

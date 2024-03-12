@@ -1,0 +1,149 @@
+.container-for-skill-assess{
+    flex-basis: 70%;
+    background: #fff;
+    width: 70%;
+    height: 100%;
+    margin-top: 50px;
+    margin-left: 206px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    
+}
+.container-for-skill-assess h2{
+    padding: 20px;
+    color: black;
+}
+.span-section h1{
+    text-align: center;
+}
+.update-skills{
+    margin-top: 20px;
+}
+.update-skills img{
+    transform: translate(160%);
+}
+.link-section{
+    display: flex;
+    flex-direction: column;
+    margin-left: 37%;
+    margin-top: 10px;
+}
+.link-section span{
+    font-size: 13px;
+    line-height: 20px;
+}
+.link-section span a{
+    color: #0a66c2;
+}
+.btn-area .link-btn{
+    background: transparent;
+    border: 1px solid #0a66c2;
+    color: #0a66c2;
+    padding: 5px 25px;
+    font-size: 1.1rem;
+    text-transform: capitalize;
+    border-radius: 30px;
+    margin: 20px;
+}
+
+
+@media only screen and (max-width:600px){
+    .container-for-skill-assess{
+        flex-basis: 100%;
+        
+    background: #fff;
+    width: 94%;
+   
+    margin-top: 50px;
+    margin-left: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    }
+    .update-skills img{
+        transform: translate(43%);
+    }
+    .span-section h1{
+        text-align: center;
+        padding-right: 20px;
+    }
+    .link-section{
+        margin-left: 25%;
+        margin-top: 10px;
+    }
+    
+}
+@media only screen and (max-width:768px){
+    .container-for-skill-assess{
+        flex-basis: 100%;
+        
+    background: #fff;
+    width: 94%;
+   
+    margin-top: 50px;
+    margin-left: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    }
+    .update-skills img{
+        transform: translate(53%);
+    }
+    .span-section h1{
+        text-align: center;
+        padding-right: 20px;
+    }
+    .link-section{
+        margin-left: 25%;
+        margin-top: 10px;
+    }
+    
+}
+@media only screen and (max-width:900px){
+    .container-for-skill-assess{
+        flex-basis: 100%;
+        
+    background: #fff;
+    width: 94%;
+   
+    margin-top: 50px;
+    margin-left: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    }
+    .update-skills img{
+        transform: translate(73%);
+    }
+    .span-section h1{
+        text-align: center;
+        padding-right: 20px;
+    }
+    .link-section{
+        margin-left: 25%;
+        margin-top: 10px;
+    }
+    
+}
+@media only screen and (max-width:1200px){
+    .container-for-skill-assess{
+        flex-basis: 100%;
+        
+    background: #fff;
+    width: 94%;
+   
+    margin-top: 50px;
+    margin-left: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    }
+    .update-skills img{
+        transform: translate(43%);
+    }
+    .span-section h1{
+        text-align: center;
+        padding-right: 20px;
+    }
+    .link-section{
+        margin-left: 25%;
+        margin-top: 10px;
+    }
+    
+}

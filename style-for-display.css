@@ -1,0 +1,32 @@
+.dark-mode-theme i{
+    float: left;
+    margin: 25px 10px 0 20px;
+}
+.dark-mode-theme h5{
+    padding-top: 25px;
+}
+.list-items{
+    margin: 40px;
+}
+.list-items li{
+    padding-bottom: 20px;
+}
+.list-items li button{
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.list-items p{
+    font-size: 12px;
+    padding-top: 0px;
+    margin-left: -42px;
+}
+.dark-theme{
+    background-color: #000;
+   color:#999;
+   
+}
+.active{
+    color: lightgreen;
+}

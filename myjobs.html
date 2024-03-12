@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linked Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="myjobs.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-left">
+            <a href="index.html" class="logo"><img src="logo.png"></a>
+            <div class="search-box">
+                <img src="search.png">
+                <input type="text" placeholder="search">
+            </div>
+        </div>
+        <div class="navbar-center">
+            <ul>
+                <li><a href="index.html" class="active-link"><img src="home.png"><span>Home</span></a></li>
+                <li><a href="mynetwork.html"><img src="network.png"><span>My Network</span></a></li>
+                <li><a href="myjobs.html"><img src="jobs.png"><span>Jobs</span></a></li>
+                <li><a href="Message.html"><img src="message.png"><span>Messaging</span></a></li>
+                <li><a href="Notifications.html"><img src="notification.png"><span>Notifications</span></a></li>
+            </ul>
+        </div>
+        <div class="navbar-right">
+            <div class="online">
+                <img src="user-1.png" class="nav-profilr-img" onclick="toggleMenu()">
+            </div>
+
+        </div>
+
+
+        <div class="profile-menu-wrap" id="profile-menu">
+            <div class="profile-menu">
+                <div class="user-info">
+                    <img src="user-1.png" alt="">
+                    <div>
+                        <h3>Anand Raj Pandey</h3>
+                        <a href="profile.html">See Your Profile</a>
+                    </div>
+                </div>
+                <hr>
+                <a href="feedback.html" class="profile-menu-link">
+                    <img src="feedback.png">
+                    <p>Give Feedback</p>
+                    <span>></span>
+                </a>
+                <a href="settingsandprivacy.html" class="profile-menu-link">
+                    <img src="setting.png">
+                    <p>setting & Privacy</p>
+                    <span>></span>
+                </a>
+                <a href="helpAndSupport.html" class="profile-menu-link">
+                    <img src="help.png">
+                    <p>Help & support</p>
+                    <span>></span>
+                </a>
+                <a href="display AndAccessbility.html" class="profile-menu-link">
+                    <img src="display.png">
+                    <p>Display & Accessibility</p>
+                    <span>></span>
+                </a>
+                <a href="loginregisteration.html" class="profile-menu-link">
+                    <img src="logout.png">
+                    <p>Logout</p>
+                    <span>></span>
+                </a>
+
+            </div>
+        </div>
+
+    </nav>
+    <div class="container2">
+        <div class="left-sidebar2">
+            <div class="sidebar-activity2" id="sidebarActivity">
+
+                <a href="sidenavmyjobs.html"><i class="fa-solid fa-bookmark"></i>My Jobs</a>
+                <li onclick="togglePopup3()"><i class="fa-solid fa-book"></i>Preferences</li>
+                <a href="skillassessment.html"><i class="fa-solid fa-clipboard"></i>Skill Assessments</a>
+                <a href="interview.Prep.html"><i class="fa-solid fa-book-tanakh"></i>Interview Prep</a>
+                <li onclick="togglePopup()"><i class="fa-solid fa-file"></i>Resume Builder</li>
+                <a href="jobseeekerGuidance.html"><i class="fa-brands fa-youtube"></i>Job seeker guidance</a>
+                <a href="applicationSettings.html"><i class="fa-solid fa-gear"></i>Application settings</a>
+            </div>
+            <div class="btn2">
+                <button><i class="fa-solid fa-clipboard-check"></i>Post A Free Job</button>
+            </div>
+        </div>
+        <div class="main-content2">
+            <div class="search-items">
+                <h2>Suggested Job searches</h2>
+                <span><i class="fa-solid fa-xmark"></i></span>
+                <div class="btn-class">
+                    <button><i class="fa-solid fa-magnifying-glass"></i>hr</button>
+                    <button><i class="fa-solid fa-magnifying-glass"></i>business Analyst</button>
+                    <button><i class="fa-solid fa-magnifying-glass"></i>sustainablity</button>
+                    <button><i class="fa-solid fa-magnifying-glass"></i>data scientist</button>
+                    <button><i class="fa-solid fa-magnifying-glass"></i>social worker</button>
+                    <button><i class="fa-solid fa-magnifying-glass"></i>data analyst</button>
+                    <button><i class="fa-solid fa-magnifying-glass"></i>estagiario</button>
+                </div>
+            </div>
+            <div class="profile-container2">
+                <div class="profile-description">
+                    <h2>Recommended For you</h2>
+                    <span>Based On your Searches</span>
+                    <div class="profile-desc-row">
+                        <img src="oraclelogo.png" alt="">
+                        <div>
+                            <h3>Oracle</h3>
+                            <b>DBA</b>
+                            <b>Banglore</b><br>
+                            <b>Actively Hiring</b>
+                            <button >Apply</button>
+                        </div>
+
+                    </div>
+                    <hr>
+                    <div class="profile-desc-row">
+                        <img src="oraclelogo.png" alt="">
+                        <div>
+                            <h3>Oracle</h3>
+                            <b>Software Developer</b>
+                            <b>Indore</b><br>
+                            <b>Actively Hiring</b>
+                            <button >Apply</button>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="profile-desc-row">
+                        <img src="oraclelogo.png" alt="">
+                        <div>
+                            <h3>Oracle</h3>
+                            <b>Java Developer</b>
+                            <b>Banglore</b><br>
+                            <b>Actively Hiring</b>
+                            <button >Apply</button>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="profile-desc-row">
+                        <img src="oraclelogo.png" alt="">
+                        <div>
+                            <h3>Oracle</h3>
+                            <b>Java Developer</b>
+                            <b>Banglore</b><br>
+                            <b>Actively Hiring</b>
+                            <button >Apply</button>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="profile-desc-row">
+                        <img src="oraclelogo.png" alt="">
+                        <div>
+                            <h3>Oracle</h3>
+                            <b>Java Developer</b>
+                            <b>Banglore</b><br>
+                            <b>Actively Hiring</b>
+                            <button >Apply</button>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="profile-desc-row">
+                        <img src="oraclelogo.png" alt="">
+                        <div>
+                            <h3>Oracle</h3>
+                            <b>Java Developer</b>
+                            <b>Banglore</b><br>
+                            <b>Actively Hiring</b>
+                            <button class="btn-right" >Apply</button>
+                        </div>
+                    </div>
+                    <hr>
+                    <a href="#" class="Experince-link">Show All <img src="right-arrow.png"> </a>
+                </div>
+            </div>
+        </div>
+        <div class="right-sidebar2">
+            <div class="sidebar-news2">
+
+                <h3>Job Seeker Guidance</h3>
+                <span>Recommended Jobs Based On Your Activity</span>
+
+                <div>
+                    <h4>I want to Improve My Resume</h4>
+                    <img src="resume.webp" alt="">
+                </div>
+
+                <p>Explore our curated guide of expert-led courses, such as how to improve your resume and grow your
+                    network, to help you land your next opportunity</p>
+                <a href="#" class="Experince-link2">Show All <i class="fa-solid fa-arrow-right"></i> </a>
+
+
+            </div>
+            <div class="sidebar-useful-links">
+                <a href="#">About</a>
+                <a href="#">Accessibility</a>
+                <a href="#">Help center</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Advertising</a>
+                <a href="#">Get the App</a>
+                <a href="#">More</a>
+                <div class="copyright-msg">
+                    <img src="logo.png">
+                    <p>Linkedup &#169; 2023. All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="popup" id="popup3">
+        <div class="overlay"></div>
+        <div class="content">
+            <div class="close-btn" onclick="togglePopup3()">&times;</div>
+            <h2>Preferences</h2>
+            <div class="preferences-choice">
+                <hr>
+                <div class="choice-option">
+                    <div class="option-val">
+                            <span class="work-option">Open to work <button> OFF
+                            </button></span>
+                            <span class="share">Share job preferences with recruiters or others</span>
+                    </div>
+                    <span class="side-arrow"><i class="fa-solid fa-arrow-right"></i></span>
+                </div>
+            </div>
+            <div class="preferences-choice">
+                <hr>
+            
+                <div class="choice-option">
+                    <div class="option-val">
+                            <span class="work-option2">Job alerts </span>
+                            <span class="share1">Top job picks for you (based on your profile and activity)</span>
+                    </div>
+                    <span class="side-arrow1"><i class="fa-solid fa-arrow-right"></i></span>
+                </div>
+            </div>
+            <div class="preferences-choice">
+                <hr>
+                <div class="choice-option">
+                    <div class="option-val">
+                            <span class="work-option3">Pay</span>
+                            <span class="share2">Privately indicate desired pay</span>
+                    </div>
+                    <span class="side-arrow2"><i class="fa-solid fa-arrow-right"></i></span>
+                </div>
+            </div>
+              </div>
+            
+
+        </div>
+        
+    </div>
+    <div class="popup" id="popup">
+        <div class="overlay"></div>
+        <div class="content">
+            <div class="close-btn" onclick="togglePopup()">&times;</div>
+            <div class="header-part">
+            <h2>Select a resume</h2>
+            
+        </div>
+        <p class="para">Get insights for formatting issues, keywords, and more.</p>
+        <div class="format-part">
+            <p>Supported upload formats: 5MB max in .DOCX or .PDF</p>
+        <div class="data-area">
+            <div class="content-area">
+                <h3>Resume-Anand-Raj-Pandey</h3>
+                <span>Edited on January 25, 2024 at 2:22 PM</span>
+            </div>
+            <span class="eclipse"><i class="fa-solid fa-ellipsis"></i></span>
+            
+        </div> 
+         
+        </div>
+        <div class="btn-area">
+        <button>create from profile</button>
+    </div>
+        </div>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

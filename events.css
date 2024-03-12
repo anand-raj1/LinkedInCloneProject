@@ -1,0 +1,65 @@
+
+
+.anktag ul li{
+    list-style: none;
+}
+
+.anktag ul .create{
+    float: right;
+    color: #0a66c2;
+    cursor: pointer;
+}
+.anktag ul .events{
+    float: left;
+    
+    
+}
+.profile-description-for-group{
+    height: 130%;
+}
+.event-part{
+    margin-top: 40px;
+    margin-left: 130px;
+}
+.event-part img{
+    margin-left: 40px;
+}
+.event-part h2{
+    padding-left: 80px;
+}
+@media only screen and (max-width:600px){
+    .right-sidebar2{
+        margin-top: 50px;
+        flex-basis: 100%;
+    }
+    .event-part{
+        margin-left: 0px;
+        margin-right: 100px;
+    }
+}
+@media only screen and (max-width:768px){
+    .right-sidebar2{
+        margin-top: 50px;
+        flex-basis: 100%;
+    }
+}
+@media only screen and (max-width:992px){
+    .right-sidebar2{
+        margin-top: 50px;
+        flex-basis: 100%;
+    }
+    .event-part{
+        margin-top: 40px;
+        margin-left: 100px;
+    }
+}
+@media only screen and (max-width:1200px){
+    .right-sidebar2{
+        margin-top: 50px;
+        flex-basis: 100%;
+    }
+    .event-part{
+        margin-top: 40px;
+        margin-left: 230px;
+    }
+}

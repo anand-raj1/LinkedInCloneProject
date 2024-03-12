@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinkedIn Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="applicationSettings.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-left">
+            <a href="index.html" class="logo"><img src="logo.png"></a>
+            <div class="search-box">
+                <img src="search.png">
+                <input type="text" placeholder="search" onclick="search()">
+            </div>
+        </div>
+        <div class="navbar-center">
+            <ul>
+                <li><a href="index.html" class="active-link"><img src="home.png"><span>Home</span></a></li>
+                <li><a href="mynetwork.html"><img src="network.png"><span>My Network</span></a></li>
+                <li><a href="myjobs.html"><img src="jobs.png"><span>Jobs</span></a></li>
+                <li><a href="Message.html"><img src="message.png"><span>Messaging</span></a></li>
+                <li><a href="Notifications.html"><img src="notification.png"><span>Notifications</span></a></li>
+            </ul>
+        </div>
+        <div class="navbar-right">
+            <div class="online">
+                <img src="user-1.png" class="nav-profilr-img" onclick="toggleMenu()">
+            </div>
+
+        </div>
+
+
+        <div class="profile-menu-wrap" id="profile-menu">
+            <div class="profile-menu">
+                <div class="user-info">
+                    <img src="user-1.png" alt="">
+                    <div>
+                        <h3>Anand Raj Pandey</h3>
+                        <a href="profile.html">See Your Profile</a>
+                    </div>
+                </div>
+                <hr>
+                <a href="feedback.html" class="profile-menu-link">
+                    <img src="feedback.png">
+                    <p>Give Feedback</p>
+                    <span>></span>
+                </a>
+                <a href="settingsandprivacy.html" class="profile-menu-link">
+                    <img src="setting.png">
+                    <p>setting & Privacy</p>
+                    <span>></span>
+                </a>
+                <a href="helpAndSupport.html" class="profile-menu-link">
+                    <img src="help.png">
+                    <p>Help & support</p>
+                    <span>></span>
+                </a>
+                <a href="display AndAccessbility.html" class="profile-menu-link">
+                    <img src="display.png">
+                    <p>Display & Accessibility</p>
+                    <span>></span>
+                </a>
+                <a href="loginregisteration.html" class="profile-menu-link">
+                    <img src="logout.png">
+                    <p>Logout</p>
+                    <span>></span>
+                </a>
+
+            </div>
+        </div>
+
+    </nav>
+<div class="container-for-app">
+       <a href="myjobs.html"><i class="fa-solid fa-arrow-left"></i>Back</a> 
+    <div class="main-content-f0r-app">
+       <h1>Resumes and application data</h1>
+        <div class="app-data">
+            <h3>Save resumes and application data</h3>
+            <span>Allow LinkedIn to save your resumes and answers to application questions. You may change your answers with each application. <a href="">Learn more about saved application data</a></span>
+        </div>
+        <hr>
+        <div class="app-data">
+            <h3>Save resume data with recruiters</h3>
+            <span>Allow LinkedIn to save your resumes and answers to application questions. You may change your answers with each application. <a href="">Learn more about saved application data</a></span>
+        </div>
+        <button class="inp-btn">Upload Resume</button>
+        <div class="safety-area">
+            <span><i class="fa-solid fa-shield-halved"></i>Your saved resumes allow us to improve your experience on LinkedIn. <a href="">Learn more about resume usage</a></span>
+        </div>
+    </div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>

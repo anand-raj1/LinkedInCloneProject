@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title>Help and support </title>
+    <link rel="stylesheet" href="styleforhelpandsupport.css">
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-left">
+            <a href="index.html" class="logo"><img src="logo.png"></a>
+            <div class="search-box">
+                <img src="search.png">
+                <input type="text" placeholder="search" onclick="search()">
+            </div>
+        </div>
+        <div class="navbar-center">
+            <ul>
+                <li><a href="index.html" class="active-link"><img src="home.png"><span>Home</span></a></li>
+                <li><a href="mynetwork.html"><img src="network.png"><span>My Network</span></a></li>
+                <li><a href="myjobs.html"><img src="jobs.png"><span>Jobs</span></a></li>
+                <li><a href="Message.html"><img src="message.png"><span>Messaging</span></a></li>
+                <li><a href="Notifications.html"><img src="notification.png"><span>Notifications</span></a></li>
+            </ul>
+        </div>
+        <div class="navbar-right">
+            <div class="online">
+                <img src="user-1.png" class="nav-profilr-img" onclick="toggleMenu()">
+            </div>
+
+        </div>
+
+
+        <div class="profile-menu-wrap" id="profile-menu">
+            <div class="profile-menu">
+                <div class="user-info">
+                    <img src="user-1.png" alt="">
+                    <div>
+                        <h3>Anand Raj Pandey</h3>
+                        <a href="profile.html">See Your Profile</a>
+                    </div>
+                </div>
+                <hr>
+                <a href="feedback.html" class="profile-menu-link">
+                    <img src="feedback.png">
+                    <p>Give Feedback</p>
+                    <span>></span>
+                </a>
+                <a href="settingsandprivacy.html" class="profile-menu-link">
+                    <img src="setting.png">
+                    <p>setting & Privacy</p>
+                    <span>></span>
+                </a>
+                <a href="helpAndSupport.html" class="profile-menu-link">
+                    <img src="help.png">
+                    <p>Help & support</p>
+                    <span>></span>
+                </a>
+                <a href="display AndAccessbility.html" class="profile-menu-link">
+                    <img src="display.png">
+                    <p>Display & Accessibility</p>
+                    <span>></span>
+                </a>
+                <a href="loginregisteration.html" class="profile-menu-link">
+                    <img src="logout.png">
+                    <p>Logout</p>
+                    <span>></span>
+                </a>
+
+            </div>
+        </div>
+
+    </nav>
+    <div class="container-for-help">
+        <div class="content-for-help">
+          <div class="left-side">
+            <div class="address details">
+              <i class="fas fa-map-marker-alt"></i>
+              <div class="topic">Address</div>
+              <div class="text-one">Rewa</div>
+              <div class="text-two">Madhya Pradesh</div>
+            </div>
+            <div class="phone details">
+              <i class="fas fa-phone-alt"></i>
+              <div class="topic">Phone</div>
+              <div class="text-one">+91 9893291985</div>
+              <div class="text-two">+91 9399347822</div>
+            </div>
+            <div class="email details">
+              <i class="fas fa-envelope"></i>
+              <div class="topic">Email</div>
+              <div class="text-one">pandeyanandraj12@gmail.com</div>
+              <div class="text-two">anandrajpandey15@gmail.com</div>
+            </div>
+          </div>
+          <div class="right-side">
+            <div class="topic-text">Send us a message</div>
+            <p>If you have any work from LinkedIn Team or any type of queries related to our jobs or anything you think is fake , you can send us message from here. It's our pleasure to help you.</p>
+          <form action="#">
+            <div class="input-box">
+              <input type="text" placeholder="Enter your name">
+            </div>
+            <div class="input-box">
+              <input type="text" placeholder="Enter your email">
+            </div>
+            <div class="input-box message-box">
+              <textarea></textarea>
+            </div>
+            <div class="button">
+              <input type="button" value="Send Now" >
+            </div>
+          </form>
+        </div>
+        </div>
+      </div>
+    <script src="script.js"></script>
+</body>
+</html>

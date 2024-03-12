@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+  >
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-left">
+            <a href="index.html" class="logo"><img src="logo.png"></a>
+            <div class="search-box">
+                <img src="search.png">
+                <input type="text" placeholder="search" onclick="search()">
+            </div>
+        </div>
+        <div class="navbar-center">
+            <ul>
+                <li><a href="index.html" class="active-link"><img src="home.png"><span>Home</span></a></li>
+                <li><a href="mynetwork.html"><img src="network.png"><span>My Network</span></a></li>
+                <li><a href="myjobs.html"><img src="jobs.png"><span>Jobs</span></a></li>
+                <li><a href="Message.html"><img src="message.png"><span>Messaging</span></a></li>
+                <li><a href="Notifications.html"><img src="notification.png"><span>Notifications</span></a></li>
+            </ul>
+        </div>
+        <div class="navbar-right">
+            <div class="online">
+                <img src="user-1.png" class="nav-profilr-img" onclick="toggleMenu()">
+            </div>
+
+        </div>
+
+
+        <div class="profile-menu-wrap" id="profile-menu">
+            <div class="profile-menu">
+                <div class="user-info">
+                    <img src="user-1.png" alt="">
+                    <div>
+                        <h3>Anand Raj Pandey</h3>
+                        <a href="profile.html">See Your Profile</a>
+                    </div>
+                </div>
+                <hr>
+                <a href="feedback.html" class="profile-menu-link">
+                    <img src="feedback.png">
+                    <p>Give Feedback</p>
+                    <span>></span>
+                </a>
+                <a href="settingsandprivacy.html" class="profile-menu-link">
+                    <img src="setting.png">
+                    <p>setting & Privacy</p>
+                    <span>></span>
+                </a>
+                <a href="helpAndSupport.html" class="profile-menu-link">
+                    <img src="help.png">
+                    <p>Help & support</p>
+                    <span>></span>
+                </a>
+                <a href="display AndAccessbility.html" class="profile-menu-link">
+                    <img src="display.png">
+                    <p>Display & Accessibility</p>
+                    <span>></span>
+                </a>
+                <a href="loginregisteration.html" class="profile-menu-link">
+                    <img src="logout.png">
+                    <p>Logout</p>
+                    <span>></span>
+                </a>
+
+            </div>
+        </div>
+
+    </nav>
+<header>
+    <div class="container_for_feedback">
+        <div class="container__left">
+          <h1>Read what our customers love about us</h1>
+          <p>
+            Over 200 companies frim diverse sectors consult us to enhance the
+            user experience of their products and services.
+          </p>
+          <p>
+            We have helped companies increase their customer base and generate
+            multifold revenue with our service.
+          </p>
+          <button>Read our success stories</button>
+        </div>
+        <div class="container__right">
+          <div class="card2">
+            <img src="user-1.png" alt="user" />
+            <div class="card__content">
+              <span><i class="ri-double-quotes-l"></i></span>
+              <div class="card__details">
+                <p>
+                  I had a great time collaboraring with the LinkedIn team. They
+                  have my high recommendation!
+                </p>
+                <h4>Anand Raj Pandey</h4>
+              </div>
+            </div>
+          </div>
+          <div class="card2">
+            <img src="user-2.png" alt="user" >
+            <div class="card__content">
+              <span><i class="ri-double-quotes-l"></i></span>
+              <div class="card__details">
+                <p>
+                  The team drastically improved  user experience &
+                  increased our business outreach.
+                </p>
+                <h4>- Andrew Jettpace</h4>
+              </div>
+            </div>
+          </div>
+          <div class="card2">
+            <img src="user-3.png" alt="user" />
+            <div class="card__content">
+              <span><i class="ri-double-quotes-l"></i></span>
+              <div class="card__details">
+                <p>
+                  I absolutely loved working with the LinkedIn team. Complete
+                  experts at what they do!
+                </p>
+                <h4>- Stacy Stone</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <script src="script.js"></script>
+</body>
+</html>

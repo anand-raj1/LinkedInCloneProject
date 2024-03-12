@@ -1,0 +1,94 @@
+.main-content-for-interviewPrep{
+    height: 100%;
+}
+.header-part{
+    background: #fcfaf9;
+    padding: 50px;
+    padding-left: 100px;
+}
+.head-data{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.head-data h1{
+    padding-bottom: 10px;
+}
+.head-data span{
+   font-size: 13px;
+   margin-top: 30px;
+}
+.img-span{
+    display: flex;
+
+}
+.img-span img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.img-span img:not(:first-child){
+   margin-left: -20px;
+}
+.img-span span{
+    padding-top: 10px;
+    padding-left: 30px;
+}
+.container2{
+    margin-top: -25px;
+}
+.left-sidebar2 ul li{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.head-sec{
+    padding: 25px;
+}
+.head-sec h2{
+    padding-bottom: 10px;
+}
+
+.head-sec span{
+    font-size: 13px;
+}
+.video{
+  height: 550px;
+  margin-bottom: 20px;
+}
+iframe{
+    margin-left: 25px;
+    width: 90%;
+    height: 100%;
+    margin-bottom: 10px;
+    background: #fff;
+}
+.funda-resume{
+    padding-left: 25px;
+    padding-bottom: 40px;
+}
+.funda-resume span a{
+    color: #045be6;
+}
+.list-area{
+    padding-left: 25px;
+    padding-bottom: 40px;
+}
+.list-area ul{
+
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.list-area ul li{
+    padding-bottom: 10px;
+}
+@media only screen and (max-width:600px){
+      iframe{
+        height: 60%;
+        margin-bottom: 0;
+      }
+      .video{
+        margin-bottom: 0;
+      }
+      .funda-resume{
+        margin-top: -170px;
+      }
+}

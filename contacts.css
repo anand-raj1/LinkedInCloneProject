@@ -1,0 +1,78 @@
+.contact-section{
+    background: #fff;
+    display: flex;
+    padding: 20px;
+    padding-left: 100px;
+}
+.contact-section h3{
+    padding-right: 10px;
+    color: black;
+}
+.contact-section button{
+    margin-left: 20px;
+    padding: 7px;
+    background: #0a66c2;
+    color: #fff;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.search-part-filter-for-contacts .search-bar{
+    display: flex;
+    width: 300px;
+    border: 1px solid black;
+    font-size: 15px;
+    padding: 9px;
+}
+.search-part-filter-for-contacts .search-bar input{
+    border: none;
+    outline: none;
+    font-size: 15px;
+    padding-left: 10px;
+    width: 270px;
+    background: transparent;
+}
+.right-sidebar2 .button-area{
+    display: flex;
+    flex-direction: column;
+}
+.right-sidebar2 .button-area .btn1{
+    background: transparent;
+    border: 1px solid #0a66c2;
+    padding-top: 4px;
+    padding-bottom: 4px; 
+    border-radius: 30px; 
+    color: #0a66c2; 
+    font-size: 20px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.right-sidebar2 .button-area .btn1:hover{
+    background: #0a66c2;
+    color: white;
+    
+}
+.right-sidebar2 .button-area .btn2:hover{
+    background: #0a66c2;
+    color: white;
+    
+}
+.right-sidebar2 .button-area .btn1 i{
+   padding-right: 10px;
+}
+.right-sidebar2 .button-area .btn2{
+    background: transparent;
+    border: 1px solid #0a66c2;
+    padding-top: 4px;
+    padding-bottom: 4px; 
+    border-radius: 30px; 
+    color: #0a66c2; 
+    font-size: 20px;
+    cursor: pointer;
+}
+.right-sidebar2 .button-area .btn2 i{
+   padding-right: 10px;
+}

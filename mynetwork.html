@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linked Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-left">
+            <a href="index.html" class="logo"><img src="logo.png"></a>
+            <div class="search-box">
+                <img src="search.png">
+                <input type="text" placeholder="search">
+            </div>
+        </div>
+        <div class="navbar-center">
+            <ul>
+                <li><a href="index.html" class="active-link"><img src="home.png"><span>Home</span></a></li>
+                <li><a href="mynetwork.html"><img src="network.png"><span>My Network</span></a></li>
+                <li><a href="myjobs.html"><img src="jobs.png"><span>Jobs</span></a></li>
+                <li><a href="Message.html"><img src="message.png"><span>Messaging</span></a></li>
+                <li><a href="Notifications.html"><img src="notification.png"><span>Notifications</span></a></li>
+            </ul>
+        </div>
+        <div class="navbar-right">
+            <div class="online">
+                <img src="user-1.png" class="nav-profilr-img" onclick="toggleMenu()">
+            </div>
+
+        </div>
+
+
+        <div class="profile-menu-wrap" id="profile-menu">
+            <div class="profile-menu">
+                <div class="user-info">
+                    <img src="user-1.png" alt="">
+                    <div>
+                        <h3>Anand Raj Pandey</h3>
+                        <a href="profile.html">See Your Profile</a>
+                    </div>
+                </div>
+                <hr>
+                <a href="feedback.html" class="profile-menu-link">
+                    <img src="feedback.png">
+                    <p>Give Feedback</p>
+                    <span>></span>
+                </a>
+                <a href="settingsandprivacy.html" class="profile-menu-link">
+                    <img src="setting.png">
+                    <p>setting & Privacy</p>
+                    <span>></span>
+                </a>
+                <a href="helpAndSupport.html" class="profile-menu-link">
+                    <img src="help.png">
+                    <p>Help & support</p>
+                    <span>></span>
+                </a>
+                <a href="display AndAccessbility.html" class="profile-menu-link">
+                    <img src="display.png">
+                    <p>Display & Accessibility</p>
+                    <span>></span>
+                </a>
+                <a href="loginregisteration.html" class="profile-menu-link">
+                    <img src="logout.png">
+                    <p>Logout</p>
+                    <span>></span>
+                </a>
+
+            </div>
+        </div>
+
+    </nav>
+    <div class="container3">
+        <div class="left-sidebar3">
+            <div class="sidebar-activity3" id="sidebarActivity">
+                <ul>
+                    <li><i class="fa-solid fa-person"></i><a href="connections.html">Connections </a><span class="right">1221</span></li>
+                    <li><i class="fa-solid fa-address-book"></i><a href="contacts.html">Contacts </a><span class="right">500</span></li>
+                    <li><i class="fa-solid fa-people-arrows"></i><a href="followingAndFollowers.html">Following & followers</a></li>
+                    <li><i class="fa-solid fa-layer-group"></i><a href="group.html">Groups</a></li>
+                    <li><i class="fa-solid fa-calendar-days"></i><a href="events.html">Events</a></li>
+                    <li><i class="fa-solid fa-building"></i><a href="pages.html">Pages </a><span class="right">30</span></li>
+                    <li><i class="fa-solid fa-newspaper"></i><a href="newsletter.html">Newsletter </a><span class="right">1</span></li>
+                    <li><i class="fa-solid fa-hashtag"></i><a href="hashtag.html">Hashtag </a><span class="right">1</span></li>
+                </ul>
+            </div>
+            
+            <div class="sidebar-ad">
+                <small>Ad &middot; &middot; &middot;</small>
+                <p>Opportunities are knowking your door</p>
+                <div>
+                    <img src="user-1.png">
+                    <img src="logo.png">
+                </div>
+                <b>Anand Raj...LinkedIn is hiring</b>
+                <a href="#" class="ad-link">Follow</a>
+            </div>
+            <div class="sidebar-useful-links">
+                <a href="#">About</a>
+                <a href="#">Accessibility</a>
+                <a href="#">Help center</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Advertising</a>
+                <a href="#">Get the App</a>
+                <a href="#">More</a>
+                <div class="copyright-msg">
+                    <img src="logo.png">
+                    <p>Linkedup &#169; 2023. All Rights Reserved</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="main-content3">
+            <div class="search-items3">
+                <div class="invitation-header">
+                    <span class="left-span">Invitations</span>
+                    <span class="right-span">See All 3</span>
+
+                </div>
+
+                <div class="profile-part">
+                    <img src="people1.webp" alt="">
+                    <div class="profile-details">
+                        <h3>Anupam</h3>
+                        <h4>Intern At Google</h4>
+                        <button class="btn-right1">...ignore</button>
+                        <button class="btn-right">Accept</button>
+                    </div>
+
+                </div>
+                <hr>
+                <div class="profile-part2">
+                    <img src="people2.webp" alt="">
+                    <div class="profile-details2">
+                        <h3>Akash</h3>
+                        <h4>Employee At Facebook</h4>
+                        <button class="btn-right1">...ignore</button>
+                        <button class="btn-right">Accept</button>
+                    </div>
+
+                </div>
+                <hr>
+                <div class="profile-part2">
+                    <img src="people3.webp" alt="">
+                    <div class="profile-details2">
+                        <h3>Anurag</h3>
+                        <h4>Intern At Microsoft</h4>
+                        <button class="btn-right1">...ignore</button>
+                        <button class="btn-right">Accept</button>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+            <div class="premiuim-membership">
+
+                <h3>Achieve Your Goal Faster With premium</h3>
+                <span><i class="fa-solid fa-xmark"></i></span>
+                <hr>
+                <p>See who's viewed your profile and directly message members outside of your network.</p>
+                <div class="img-part">
+                    <img src="people1.webp" alt="">
+                    <img src="people2.webp" alt="">
+                    <img src="people3.webp" alt="">
+                    <p>Suman And other people are using premiuim membership</p>
+                </div>
+                <button>Try Premium For ₹0</button><br>
+                <span class="free-trial-span">1 month free trial cancel Any Time</span>
+            </div>
+            <div class="people-part">
+                <span class="span1">People you may Know</span>
+                <span class="span2">See All</span>
+                <div class="card-items">
+                <div class="card">
+                    <div class="cover-photo"></div>
+                    <img src="people1.webp" alt="Kawaljeet Singh" class="profile-img">
+                    <h4>Kawaljeet Singh</h4>
+                    <p>Creative Graphic Designer | UI / UX ...</p>
+                    <div class="connections">
+                        <p>1 mutual connection</p>
+                        <button class="connect-btn"><i class="fa-solid fa-user-plus"></i>Connect</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="cover-photo"></div>
+                    <img src="people2.webp" alt="Kawaljeet Singh" class="profile-img">
+                    <h4>Prakash Sharma</h4>
+                    <p> Graphic Designer At Google| UI / UX ...</p>
+                    <div class="connections">
+                        <p>11 mutual connection</p>
+                        <button class="connect-btn"><i class="fa-solid fa-user-plus"></i>Connect</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="cover-photo"></div>
+                    <img src="people3.webp" alt="Kawaljeet Singh" class="profile-img">
+                    <h4>Vicky Singh</h4>
+                    <p>Website Designer | Html,CSS Javascript</p>
+                    <div class="connections">
+                        <p>10 mutual connection</p>
+                        <button class="connect-btn"><i class="fa-solid fa-user-plus"></i>Connect</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="cover-photo"></div>
+                    <img src="people4.webp" alt="Kawaljeet Singh" class="profile-img">
+                    <h4> vikas sharma</h4>
+                    <p>Lead Software Developer At Facebook</p>
+                    <div class="connections">
+                        <p>14 mutual connection</p>
+                        <button class="connect-btn"><i class="fa-solid fa-user-plus"></i>Connect</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="cover-photo"></div>
+                    <img src="people5.webp" alt="Kawaljeet Singh" class="profile-img">
+                    <h4>Deepanshu Singh</h4>
+                    <p>Senior Java developer at Accenture</p>
+                    <div class="connections">
+                        <p>1 mutual connection</p>
+                        <button class="connect-btn"><i class="fa-solid fa-user-plus"></i>Connect</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="cover-photo"></div>
+                    <img src="people6.webp" alt="Kawaljeet Singh" class="profile-img">
+                    <h4>Aman Singh</h4>
+                    <p>Creative Graphic Designer | UI / UX ...</p>
+                    <div class="connections">
+                        <p>1 mutual connection</p>
+                        <button class="connect-btn"><i class="fa-solid fa-user-plus"></i>Connect</button>
+                    </div>
+                </div>
+                
+            </div>
+
+            </div>
+            <div class="people-part">
+                <span class="span1">People you may Know from your contact</span>
+                <span class="span2">See All</span>
+                <div class="card-items">
+                <div class="card">
+                    <div class="cover-photo"></div>
+                    <img src="people1.webp" alt="Kawaljeet Singh" class="profile-img">
+                    <h4>Kawaljeet Singh</h4>
+                    <p>Creative UI / UX Designer</p>
+                    <div class="connections">
+                        <p>1 mutual connection</p>
+                        <button class="connect-btn"><i class="fa-solid fa-user-plus"></i>Connect</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="cover-photo"></div>
+                    <img src="people2.webp" alt="Kawaljeet Singh" class="profile-img">
+                    <h4>Henry</h4>
+                    <p>Full stack Developer</p>
+                    <div class="connections">
+                        <p>1 mutual connection</p>
+                        <button class="connect-btn"><i class="fa-solid fa-user-plus"></i>Connect</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="cover-photo"></div>
+                    <img src="people3.webp" alt="Kawaljeet Singh" class="profile-img">
+                    <h4>Benjamin Leo</h4>
+                    <p>Front End Developer</p>
+                    <div class="connections">
+                        <p>1 mutual connection</p>
+                        <button class="connect-btn"><i class="fa-solid fa-user-plus"></i>Connect</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="cover-photo"></div>
+                    <img src="people4.webp" alt="Kawaljeet Singh" class="profile-img">
+                    <h4>Peter Parker</h4>
+                    <p> Graphic Designer</p>
+                    <div class="connections">
+                        <p>1 mutual connection</p>
+                        <button class="connect-btn"><i class="fa-solid fa-user-plus"></i>Connect</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="cover-photo"></div>
+                    <img src="people5.webp" alt="Kawaljeet Singh" class="profile-img">
+                    <h4>Mahendra singh</h4>
+                    <p> UI / UX Developer</p>
+                    <div class="connections">
+                        <p>1 mutual connection</p>
+                        <button class="connect-btn"><i class="fa-solid fa-user-plus"></i>Connect</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="cover-photo"></div>
+                    <img src="people6.webp" alt="Kawaljeet Singh" class="profile-img">
+                    <h4>vikas Singh</h4>
+                    <p>Java Developer</p>
+                    <div class="connections">
+                        <p>1 mutual connection</p>
+                        <button class="connect-btn"><i class="fa-solid fa-user-plus"></i>Connect</button>
+                    </div>
+                </div>
+                
+            </div>
+
+            </div>
+            
+        </div>
+            
+        </div>
+        
+    <script src="script.js"></script>
+</body>
+
+</html>

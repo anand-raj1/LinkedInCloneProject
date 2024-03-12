@@ -1,0 +1,262 @@
+.main-content2{
+    flex-basis: 60%;
+}
+.sort {
+    margin-top: 10px;
+   
+}
+.sort span,select{
+    font-size: 15px;
+    border: none;
+    outline: none;
+}
+.connections-search-bar{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.search-part-filter{
+    display: flex;
+    margin-bottom: -10px;
+    background: #f8fafd;
+}
+.search-part-filter .search-bar{
+    display: flex;
+    width: 200px;
+    border: 1px solid black;
+    font-size: 15px;
+    padding: 9px;
+}
+.search-part-filter a{
+    padding: 10px;
+    color: #045be6;
+}
+.search-part-filter .search-bar:hover{
+    border: 2px solid black;
+}
+.search-part-filter .search-bar input{
+    border: none;
+    outline: none;
+    font-size: 15px;
+    padding-left: 10px;
+    width: 170px;
+    background: transparent;
+}
+.profile-viewer-container-for-connection{
+    display: flex;
+    margin-top: 40px;
+} 
+.profile-viewer-container-for-connection img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 60px;
+}
+.profile-description hr{
+    margin-top: 25px;
+}
+
+.details-of-connection{
+    display: flex;
+    flex-direction: column;
+    padding-right: 30px;
+    padding-top: 20px;
+}
+.connection-buttons{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.connection-buttons .msg-btn{
+    background: transparent;
+    padding: 5px;
+    border: 1px solid #045be6;
+    color: #045be6;
+    border-radius: 30px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.connection-buttons span i{
+    font-size: 20px;
+    cursor: pointer;
+}
+@media only screen and (max-width:600px){
+    .main-content2{
+        flex-basis: 90%;
+    }
+    .connection-buttons .msg-btn{
+        display: none;
+    }
+    .connections-search-bar{
+        flex-basis: 100%;
+    }
+    .search-part-filter .search-bar{
+        
+        width: 180px;
+        border: 1px solid black;
+        font-size: 15px;
+        padding: 9px;
+    }
+    .search-part-filter .search-bar input{
+        border: none;
+        outline: none;
+        font-size: 15px;
+        padding-left: 10px;
+        width: 150px;
+        background: transparent;
+    }
+    .profile-viewer-container-for-connection img{
+       
+        margin-right: 30px;
+    }
+    .details-of-connection{
+        
+        padding-right: 10px;
+        padding-top: 20px;
+    }
+    .connection-buttons{
+        flex-direction: row;
+        margin-left: 10px;
+        margin-top: 30px;
+    }
+    .connection-buttons .msg-btn{
+        margin-top: -25px;
+        
+        border-radius: 15px;
+        margin-right: 20px;
+        cursor: pointer;
+    }
+}
+@media only screen and (max-width:768px){
+    .main-content2{
+        /* flex-basis: 100%; */
+        width: 95%;
+    }
+    .connections-search-bar{
+        width: 93%;
+    }
+    .search-part-filter .search-bar{
+        
+        width: 150px;
+        border: 1px solid black;
+        font-size: 15px;
+        padding: 9px;
+    }
+    .search-part-filter .search-bar input{
+        border: none;
+        outline: none;
+        font-size: 15px;
+        padding-left: 10px;
+        width: 130px;
+        background: transparent;
+    }
+    .profile-viewer-container-for-connection img{
+       
+        margin-right: 30px;
+    }
+    .details-of-connection{
+        
+        padding-right: 10px;
+        padding-top: 20px;
+    }
+    .connection-buttons{
+        flex-direction: row;
+        margin-left: 10px;
+        margin-top: 30px;
+    }
+    
+    .connection-buttons .msg-btn{
+        display: none;
+    } 
+    .connection-buttons span i{
+        display: none;
+    }
+}
+@media only screen and (max-width: 992px){
+    .main-content2{
+        flex-basis: 100%;
+    }
+    .connections-search-bar{
+        flex-basis: 100%;
+    }
+    .search-part-filter .search-bar{
+        
+        width: 180px;
+        border: 1px solid black;
+        font-size: 15px;
+        padding: 9px;
+    }
+    .search-part-filter .search-bar input{
+        border: none;
+        outline: none;
+        font-size: 15px;
+        padding-left: 10px;
+        width: 150px;
+        background: transparent;
+    }
+    .profile-viewer-container-for-connection img{
+       
+        margin-right: 30px;
+    }
+    .details-of-connection{
+        
+        padding-right: 100px;
+        padding-top: 20px;
+    }
+    .connection-buttons{
+        flex-direction: row;
+        margin-left: 100px;
+        margin-top: 30px;
+    }
+    .connection-buttons .msg-btn{
+        margin-top: -25px;
+        
+        border-radius: 15px;
+        margin-right: 20px;
+        cursor: pointer;
+    }
+}
+@media only screen and (max-width: 1200px){
+    .main-content2{
+        flex-basis: 90%;
+        margin-right: 30px;
+    }
+    .connections-search-bar{
+        flex-basis: 100%;
+    }
+    .search-part-filter .search-bar{
+        
+        width: 180px;
+        border: 1px solid black;
+        font-size: 15px;
+        padding: 9px;
+    }
+    .search-part-filter .search-bar input{
+        border: none;
+        outline: none;
+        font-size: 15px;
+        padding-left: 10px;
+        width: 150px;
+        background: transparent;
+    }
+    .profile-viewer-container-for-connection img{
+       
+        margin-right: 30px;
+    }
+    .details-of-connection{
+        
+        padding-right: 150px;
+        padding-top: 20px;
+    }
+    .connection-buttons{
+        flex-direction: row;
+        margin-left: 150px;
+        margin-top: 30px;
+    }
+    .connection-buttons .msg-btn{
+        margin-top: -25px;
+        
+        border-radius: 15px;
+        margin-right: 20px;
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,18 @@
+.hash-tag{
+    padding: 20px;
+}
+.hash-tag .tag{
+    float: left;
+}
+.hash-tag .follow-btn{
+    float: right;
+    padding: 7px;
+    background: transparent;
+    color: gray;
+    border: 1px solid gray;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}

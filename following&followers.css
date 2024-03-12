@@ -1,0 +1,130 @@
+.ank-tags{
+    padding-top: 30px;
+    padding-left: 20px;
+}
+.ank-tags .First a{
+    color: #01754f;
+    padding-bottom: 5px;
+    border-bottom:1px solid #01754f;
+}
+.second{
+    padding-left: 20px;
+}
+.profile-description p#para{
+    margin-top: 10px;
+}
+.msg-btn-follow{
+    padding: 7px;
+    background: transparent;
+    color: gray;
+    border: 1px solid gray;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.msg-btn-follow:hover{
+    border: 2px solid gray;   
+}
+@media only screen and (max-width:600){
+    
+    .main-content2{
+        flex-basis: 90%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    /* .newcont{
+        width: 75%;
+        margin-left: 96px;
+        margin-right: 10px;
+    } */
+    .connection-buttons{
+        padding-left: -30px;
+    }
+    .msg-btn-follow{
+        /* padding: 4px;
+        background: transparent;
+        color: gray;
+        border: 1px solid gray;
+        font-size: 7px;
+        cursor: pointer;
+        border-radius: 30px;
+        padding-left: 20px;
+        padding-right: 20px; */
+        display: none;
+    }
+    .right-sidebar2{
+        flex-basis: 100%;
+    }
+}
+@media only screen and (max-width: 768px){
+    .msg-btn-follow{
+        margin-left: -30px;
+        padding: 0;
+    }
+    .connection-buttons{
+        padding-left: -30px;
+    }
+    .msg-btn-follow{
+        /* padding: 4px;
+        background: transparent;
+        color: gray;
+        border: 1px solid gray;
+        font-size: 7px;
+        cursor: pointer;
+        border-radius: 30px;
+        padding-left: 20px;
+        padding-right: 20px; */
+        display: none;
+    }
+    .right-sidebar2{
+        flex-basis: 100%;
+    }
+}
+@media only screen and (max-width: 992px){
+    .msg-btn-follow{
+        margin-left: -30px;
+        padding: 0;
+    }
+    .connection-buttons{
+        padding-left: -30px;
+    }
+    .msg-btn-follow{
+        padding: 4px;
+        background: transparent;
+        color: gray;
+        border: 1px solid gray;
+        font-size: 7px;
+        cursor: pointer;
+        border-radius: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .right-sidebar2{
+        flex-basis: 100%;
+    }
+}
+@media only screen and (max-width: 1200px){
+    .msg-btn-follow{
+        margin-left: -30px;
+        padding: 0;
+    }
+    .connection-buttons{
+        padding-left: -30px;
+    }
+    .msg-btn-follow{
+        padding: 4px;
+        background: transparent;
+        color: gray;
+        border: 1px solid gray;
+        font-size: 7px;
+        cursor: pointer;
+        border-radius: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .right-sidebar2{
+        flex-basis: 100%;
+    }
+}

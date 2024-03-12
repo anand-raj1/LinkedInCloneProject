@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinkedIn Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-left">
+            <a href="index.html" class="logo"><img src="logo.png"></a>
+            <div class="search-box">
+                <img src="search.png">
+                <input type="text" placeholder="search" onclick="search()">
+            </div>
+        </div>
+        <div class="navbar-center">
+            <ul>
+                <li><a href="index.html" class="active-link"><img src="home.png"><span>Home</span></a></li>
+                <li><a href="mynetwork.html"><img src="network.png"><span>My Network</span></a></li>
+                <li><a href="myjobs.html"><img src="jobs.png"><span>Jobs</span></a></li>
+                <li><a href="Message.html"><img src="message.png"><span>Messaging</span></a></li>
+                <li><a href="Notifications.html"><img src="notification.png"><span>Notifications</span></a></li>
+            </ul>
+        </div>
+        <div class="navbar-right">
+            <div class="online">
+                <img src="user-1.png" class="nav-profilr-img" onclick="toggleMenu()">
+            </div>
+
+        </div>
+
+
+        <div class="profile-menu-wrap" id="profile-menu">
+            <div class="profile-menu">
+                <div class="user-info">
+                    <img src="user-1.png" alt="">
+                    <div>
+                        <h3>Anand Raj Pandey</h3>
+                        <a href="profile.html">See Your Profile</a>
+                    </div>
+                </div>
+                <hr>
+                <a href="feedback.html" class="profile-menu-link">
+                    <img src="feedback.png">
+                    <p>Give Feedback</p>
+                    <span>></span>
+                </a>
+                <a href="settingsandprivacy.html" class="profile-menu-link">
+                    <img src="setting.png">
+                    <p>setting & Privacy</p>
+                    <span>></span>
+                </a>
+                <a href="helpAndSupport.html" class="profile-menu-link">
+                    <img src="help.png">
+                    <p>Help & support</p>
+                    <span>></span>
+                </a>
+                <a href="display AndAccessbility.html" class="profile-menu-link">
+                    <img src="display.png">
+                    <p>Display & Accessibility</p>
+                    <span>></span>
+                </a>
+                <a href="loginregisteration.html" class="profile-menu-link">
+                    <img src="logout.png">
+                    <p>Logout</p>
+                    <span>></span>
+                </a>
+
+            </div>
+        </div>
+
+    </nav>
+    <div class="container">
+        <div class="left-sidebar">
+            <div class="sidebar-profilebox">
+                <img src="cover-pic.png" width="100%">
+                <div class="sidebar-profile-info">
+                    <div class="user-image">
+                        <img src="user-1.png" id="photo">
+                        <input type="file" id="file">
+                        <label for="file" id="uploadbutton"><i class="fa-solid fa-camera"></i></label>
+                    </div>
+                    <a href="profile.html">
+                        <h1>Anand Raj Pandey</h1>
+                    </a>
+                    <h3>Web developer</h3>
+                    <ul>
+                        <a href="profileViewer.html">
+                            <li>Profile Viewer<span>36</span></li>
+                        </a>
+                        <a href="connections.html">
+                            <li>connections<span>1252</span></li>
+                        </a>
+                        <li>Manage your Network</li>
+                    </ul>
+                </div>
+                <div class="sidebar-profile-link">
+                    <a href=""><img src="items.png">My items</a>
+                    <a href=""><img src="premium.png">Try Premiuim</a>
+                </div>
+            </div>
+            <div class="sidebar-activity" id="sidebarActivity">
+                <h3>Recent</h3>
+                <a href=""><img src="recent.png">Web Development</a>
+                <a href=""><img src="recent.png">User Interface</a>
+                <a href=""><img src="recent.png">Online Learning</a>
+                <a href=""><img src="recent.png">Learn Online</a>
+                <a href=""><img src="recent.png">Code Better</a>
+                <a href=""><img src="recent.png">Group Learning</a>
+                <h3>Groups</h3>
+                <a href=""><img src="group.png">Web Design Group</a>
+                <a href=""><img src="group.png">HTML & CSS Learners</a>
+                <a href=""><img src="group.png">Javascript and Reactjs Group</a>
+                <a href=""><img src="group.png">Learn Coding Online</a>
+                <h3>HASHTAG</h3>
+                <a href=""><img src="hashtag.png">Web Development</a>
+                <a href=""><img src="hashtag.png">User Interface</a>
+                <a href=""><img src="hashtag.png">Online Learning</a>
+                <div class="discover-more">
+                    <a href="discovermore.html">Discover More</a>
+                </div>
+            </div>
+            <p id="show-more-link" onclick="toggleActivity()">Show more <b>+</b> </p>
+        </div>
+        <div class="main-content">
+            <div class="create-post">
+                <div class="create-post-input">
+                    <img src="user-1.png" alt="">
+                    <textarea rows="2" placeholder="Write a post"></textarea>
+                </div>
+                <div class="create-posts-links">
+                    <li onclick="togglePopup3()"><img src="photo.png">Photo</li>
+                    <li onclick="togglePopup4()"><img src="video.png">Video</li>
+                    <li onclick="togglePopup()"><img src="event.png">Event</li>
+                    <li onclick="togglePopup2()">Post</li>
+                </div>
+            </div>
+            <div class="sort-by">
+                <hr>
+                <p>Sort by: <Span>top <img src="down-arrow.png"></Span></p>
+            </div>
+            <div class="post">
+                <div class="post-author">
+                    <img src="user-3.png">
+                    <div>
+                        <h1>Benjamin Leo</h1>
+                        <small>Founder and CEO at Google Group | Angel Investor</small>
+                        <small>2 hours ago</small>
+                    </div>
+                </div>
+                <p>The success of every websites depends on search engine optimisation and digital marketing strategy.
+                    If you are on first page of all major search engines then you are ahead among your competitors.</p>
+                <img src="post-image-1.png" width="100%">
+                <div class="post-stats">
+
+                    <div>
+
+                        <img src="thumbsup.png">
+
+                        <img src="love.png">
+
+                        <img src="clap.png">
+
+                        <span class="liked-users">Anand Raj Pandey and 75 other
+
+                    </div>
+                    <div>
+                        <span>22 comments &middot; 40 shares</span>
+                    </div>
+                </div>
+                <div class="post-activity">
+                    <div>
+                        <img src="user-1.png" class="post-activity-user-icon">
+                        <img src="down-arrow.png" class="post-activity-arrow-icon">
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="like.png" alt="">
+                        <span>Like</span>
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="comment.png" alt="">
+                        <span>comment</span>
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="share.png" alt="">
+                        <span>share</span>
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="send.png" alt="">
+                        <span>send</span>
+                    </div>
+                </div>
+            </div>
+            <div class="post">
+                <div class="post-author">
+                    <img src="user-5.png">
+                    <div>
+                        <h1>Clarence George</h1>
+                        <small>Founder and CEO at Google Group | Angel Investor</small>
+                        <small>2 hours ago</small>
+                    </div>
+                </div>
+                <p>The success of every websites depends on search engine optimisation and digital marketing strategy.
+                    If you are on first page of all major search engines then you are ahead among your competitors.</p>
+                <img src="post-image-3.png" width="100%">
+                <div class="post-stats">
+
+                    <div>
+
+                        <img src="thumbsup.png">
+
+                        <img src="love.png">
+
+                        <img src="clap.png">
+
+                        <span class="liked-users">Anand Raj Pandey and 75 other
+
+                    </div>
+                    <div>
+                        <span>22 comments &middot; 40 shares</span>
+                    </div>
+                </div>
+                <div class="post-activity">
+                    <div>
+                        <img src="user-1.png" class="post-activity-user-icon">
+                        <img src="down-arrow.png" class="post-activity-arrow-icon">
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="like.png" alt="">
+                        <span>Like</span>
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="comment.png" alt="">
+                        <span>comment</span>
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="share.png" alt="">
+                        <span>share</span>
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="send.png" alt="">
+                        <span>send</span>
+                    </div>
+                </div>
+            </div>
+            <div class="post">
+                <div class="post-author">
+                    <img src="user-4.png">
+                    <div>
+                        <h1>Clarence George</h1>
+                        <small>Founder and CEO at Google Group | Angel Investor</small>
+                        <small>2 hours ago</small>
+                    </div>
+                </div>
+                <p>The success of every websites depends on search engine optimisation and digital marketing strategy.
+                    If you are on first page of all major search engines then you are ahead among your competitors.</p>
+                <img src="post-image-4.png" width="100%">
+                <div class="post-stats">
+
+                    <div>
+
+                        <img src="thumbsup.png">
+
+                        <img src="love.png">
+
+                        <img src="clap.png">
+
+                        <span class="liked-users">Anand Raj Pandey and 75 other
+
+                    </div>
+                    <div>
+                        <span>22 comments &middot; 40 shares</span>
+                    </div>
+                </div>
+                <div class="post-activity">
+                    <div>
+                        <img src="user-1.png" class="post-activity-user-icon">
+                        <img src="down-arrow.png" class="post-activity-arrow-icon">
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="like.png" alt="">
+                        <span>Like</span>
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="comment.png" alt="">
+                        <span>comment</span>
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="share.png" alt="">
+                        <span>share</span>
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="send.png" alt="">
+                        <span>send</span>
+                    </div>
+                </div>
+            </div>
+            <div class="post">
+                <div class="post-author">
+                    <img src="user-4.png">
+                    <div>
+                        <h1>Clarence George</h1>
+                        <small>Founder and CEO at Google Group | Angel Investor</small>
+                        <small>2 hours ago</small>
+                    </div>
+                </div>
+                <p>The success of every websites depends on search engine optimisation and digital marketing strategy.
+                    If you are on first page of all major search engines then you are ahead among your competitors.</p>
+                <img src="post-image-2.png" width="100%">
+                <div class="post-stats">
+
+                    <div>
+
+                        <img src="thumbsup.png">
+
+                        <img src="love.png">
+
+                        <img src="clap.png">
+
+                        <span class="liked-users">Anand Raj Pandey and 75 other
+
+                    </div>
+                    <div>
+                        <span>22 comments &middot; 40 shares</span>
+                    </div>
+                </div>
+                <div class="post-activity">
+                    <div>
+                        <img src="user-1.png" class="post-activity-user-icon">
+                        <img src="down-arrow.png" class="post-activity-arrow-icon">
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="like.png" alt="">
+                        <span>Like</span>
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="comment.png" alt="">
+                        <span>comment</span>
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="share.png" alt="">
+                        <span>share</span>
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="send.png" alt="">
+                        <span>send</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="right-sidebar">
+            <div class="sidebar-news">
+                <img src="more.png" class="info-icon">
+                <h3>Trending News</h3>
+                <a href="#">High demand for skilled manpower</a>
+                <span>1d ago &middot; 10,934 readers</span>
+
+                <a href="#">Careers growing horizontally too</a>
+                <span>1d ago &middot; 1,552 readers</span>
+
+                <a href="#">Less work visa for US, more for UK </a>
+                <span>1d ago &middot; 27,290 readers</span>
+
+                <a href="#">More hiring = higher confidence?</a>
+                <span>1d ago &middot; 8,000 readers</span>
+
+                <a href="#">Mukesh ambani is the richest person in india</a>
+                <span>1d ago &middot; 9034 readers</span>
+
+                <a href="#" class="read-more-link">Read More</a>
+            </div>
+            <div class="sidebar-ad">
+                <small>Ad &middot; &middot; &middot;</small>
+                <p>Master the 5 principle of web Design</p>
+                <div>
+                    <img src="user-1.png">
+                    <img src="logo.png">
+                </div>
+                <b>Brand and Demand in Samsung</b>
+                <a href="#" class="ad-link">Learn More</a>
+            </div>
+            <div class="sidebar-useful-links">
+                <a href="#">About</a>
+                <a href="#">Accessibility</a>
+                <a href="#">Help center</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Advertising</a>
+                <a href="#">Get the App</a>
+                <a href="#">More</a>
+                <div class="copyright-msg">
+                    <img src="logo.png">
+                    <p>Linkedup &#169; 2023. All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="popup" id="popup">
+        <div class="overlay"></div>
+        <div class="content">
+            <div class="close-btn" onclick="togglePopup()">&times;</div>
+            <h1>Create An Event</h1>
+            <div class="file">
+                <input type="file"><br>
+
+
+
+            </div>
+            <form action="" name="myForm">
+                <h3>Event Type</h3>
+                <div class="radio-box">
+                    <input type="radio" name="person" class="radio"><span>Online</span>
+
+
+                    <input type="radio" name="person" class="radio"><span>In Person</span>
+                </div>
+                <label for="" class="event-class">Event Format*</label>
+                <select name="select-option" id="select-event">
+                    <option value="">Select</option>
+                    <option value="">
+                        <h3>Linkedin Audio Event</h3><br>
+                        <p>An audio only format that allows participants to raise their hand to join the conversation.
+                        </p>
+                    </option>
+                    <option value="">
+                        <h3>LinkedIn Live</h3><br>
+                        <p>Stream from a 3rd party tool. Attendees join on Linkedin to watch and comment.</p>
+                    </option>
+                    <option value="">
+                        <h3>External event link</h3><br>
+                        <p>Share event details on LinkedIn. Enter an external link for participants to join.</p>
+                    </option>
+                </select>
+                <label for="" class="event-class">Event Name*</label>
+                <input type="text" class="event-input">
+                <label for="" class="event-class">Time Zone*</label>
+                <input type="datetime-local" class="event-input">
+                <div class="date-and-time">
+                    <div class="date">
+                        <label for="">startdate*</label>
+                        <input type="date">
+
+                    </div>
+                    <div class="time">
+                        <label for="">starttime*</label>
+                        <input type="time">
+                    </div>
+                </div>
+                <div class="date-and-time">
+                    <div class="date">
+                        <label for="">Enddate*</label>
+                        <input type="date">
+
+                    </div>
+                    <div class="time">
+                        <label for="">Endtime*</label>
+                        <input type="time">
+                    </div>
+                </div>
+
+                <br><label for="" class="desc-label">Description*</label>
+                <textarea name="" id="Description-textarea" cols="30" rows="10"
+                    placeholder="Ex: Topics Schedule etc."></textarea>
+                <!-- <div class="speaker-section"> -->
+                <label for="" class="speaker">Speaker*</label>
+                <input type="search" id="input-speaker">
+                <p class="speaker-para">Add connections to speak at the event. Speakers can join the event early and
+                    will be shown in the event’s Details section and presenter area. They cannot allow attendees to
+                    speak or <span> end the event.</span></p>
+                <p class="speaker-para2">By continuing, you agree with <a href="">LinkedIn’s event policy</a></p>
+                <span class="speaker-span">Make the most of LinkedIn Events. <a href=""> Learn more</a></span>
+                <!-- </div> -->
+                <hr>
+
+
+            </form>
+            <button class="next-btn">next</button>
+        </div>
+    </div>
+    <div class="popup" id="popup2">
+        <div class="overlay"></div>
+        <div class="content">
+            <div class="close-btn" onclick="togglePopup2()">&times;</div>
+            <h1>Create A Post</h1>
+            <form action="" class="form2">
+                <div class="content2">
+                    <img src="user-1.png" alt="logo">
+                    <div class="details">
+                        <p>LinkedIn Post</p>
+                        <div class="privacy">
+                            <i class="fas fa-user-friends"></i>
+                            <span>Friends</span>
+                            <i class="fas fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+                <textarea placeholder="What do you want to talk About?" spellcheck="false" required></textarea>
+                <div class="theme-emoji">
+                    <img src="theme.svg" alt="theme">
+                    <img src="smile.svg" alt="smile">
+                </div>
+                <div class="options">
+                    <p>Add to Your Post</p>
+                    <ul class="list">
+                        <li><img src="gallery.svg" alt="gallery"></li>
+                        <li><img src="tag.svg" alt="gallery"></li>
+                        <li><img src="emoji.svg" alt="gallery"></li>
+                        <li><img src="mic.svg" alt="gallery"></li>
+                        <li><img src="more.svg" alt="gallery"></li>
+                    </ul>
+                </div>
+                <button>Post</button>
+            </form>
+
+        </div>
+    </div>
+    <div class="popup" id="popup4">
+        <div class="overlay"></div>
+        <div class="content">
+            <div class="close-btn" onclick="togglePopup4()">&times;</div>
+            <h1>Create A Video Post</h1>
+            <form action="" class="form2">
+
+                <textarea placeholder="What  Kind of video you want to post?" spellcheck="false" required></textarea>
+                <div class="video-post-part">
+
+                    <input type="file" name="" id="videopopup">
+                    <img src="video.png" alt="">
+
+                </div>
+
+                <button class="btn-for-video">Post A Video</button>
+            </form>
+
+        </div>
+    </div>
+    <div class="popup" id="popup3">
+        <div class="overlay"></div>
+        <div class="content">
+            <div class="close-btn" onclick="togglePopup3()">&times;</div>
+            <h1>Post A Photo</h1>
+            <div class="post-container">
+                <div class="photo">
+                    <h3>Select A photo To Upload</h3>
+                    <span>select from Computer</span><br>
+                    <button><input type="file" class="post-photo"></button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

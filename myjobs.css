@@ -1,0 +1,125 @@
+.popup .content{
+    width: 550px;
+    height: 550px;
+}
+.content h2{
+    float: left;
+    color: black;
+}
+.preferences-choice{
+    margin-top: 40px;
+}
+.choice-option{
+    display: flex;
+    margin-top: 10px;
+}
+.choice-option .option-val{
+    display: flex;
+    flex-direction: column;
+}
+.choice-option .option-val .work-option{
+    float: left;
+    padding-right: 204px;
+    color: black;
+    font-size: 17px;
+    padding-bottom: 10px;
+}
+.choice-option .option-val .work-option button{
+    border: none;
+    outline: none;
+    margin-left: 5px;
+    color: black;
+    font-size: 15px;
+    background: rgb(140 140 140/.2);
+    padding: 3px 10px 3px 10px;
+    cursor: pointer;
+}
+.choice-option .option-val .share{
+    padding-right: 110px;
+    color: black;
+    font-size: 13px;
+    font-weight: lighter;
+}
+.choice-option .side-arrow{
+    margin-left: 80px;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.choice-option .option-val .work-option2{
+    padding-right: 310px;
+    color: black;
+    font-size: 17px;
+    padding-bottom: 10px;
+}
+.choice-option .option-val .share1{
+    color: black;
+    font-size: 13px;
+    font-weight: lighter;
+    padding-right: 80px;
+}
+.choice-option .side-arrow1{
+    margin-left: 60px;
+    font-size: 25px;
+    margin-top: 20px;
+}
+.choice-option .option-val .work-option3{
+    padding-right: 310px;
+    color: black;
+    font-size: 17px;
+    padding-bottom: 10px;
+}
+.choice-option .option-val .share2{
+    color: black;
+    font-size: 13px;
+    font-weight: lighter;
+    padding-right: 175px;
+}
+.choice-option .side-arrow2{
+    margin-left: 100px;
+    font-size: 25px;
+    margin-top: 20px;
+}
+#popup .para{
+    margin-left: -100px;
+    margin-top: 31px;
+}
+.format-part{
+    height: 40px;
+    margin-top: 20px;
+    background-color: lightblue;
+    color: black;
+    font-size: 13px;
+}
+.format-part p{
+    padding-top: 15px;
+    padding-right: 30%;
+}
+.content-area{
+    margin-top: 20px;
+    float: left;
+}
+.content-area span{
+    margin-left: 18px;
+}
+.data-area span.eclipse{
+    float: right;
+    margin-top: 30px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.btn-area{
+    margin-top: 77%;
+    margin-left: 60%;
+}
+.btn-area button{
+    padding: 5px 20px;
+    background: #0a66c2;
+    color: white;
+    font-size: 1rem;
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    cursor: pointer;
+}

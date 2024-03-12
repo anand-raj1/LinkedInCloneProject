@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linked Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="styleforProViwer.css">
+    <link rel="stylesheet" href="styleforsidenav.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-left">
+            <a href="index.html" class="logo"><img src="logo.png"></a>
+            <div class="search-box">
+                <img src="search.png">
+                <input type="text" placeholder="search">
+            </div>
+        </div>
+        <div class="navbar-center">
+            <ul>
+                <li><a href="index.html" class="active-link"><img src="home.png"><span>Home</span></a></li>
+                <li><a href="mynetwork.html"><img src="network.png"><span>My Network</span></a></li>
+                <li><a href="myjobs.html"><img src="jobs.png"><span>Jobs</span></a></li>
+                <li><a href="Message.html"><img src="message.png"><span>Messaging</span></a></li>
+                <li><a href="Notifications.html"><img src="notification.png"><span>Notifications</span></a></li>
+            </ul>
+        </div>
+        <div class="navbar-right">
+            <div class="online">
+                <img src="user-1.png" class="nav-profilr-img" onclick="toggleMenu()">
+            </div>
+
+        </div>
+
+
+        <div class="profile-menu-wrap" id="profile-menu">
+            <div class="profile-menu">
+                <div class="user-info">
+                    <img src="user-1.png" alt="">
+                    <div>
+                        <h3>Anand Raj Pandey</h3>
+                        <a href="profile.html">See Your Profile</a>
+                    </div>
+                </div>
+                <hr>
+                <a href="feedback.html" class="profile-menu-link">
+                    <img src="feedback.png">
+                    <p>Give Feedback</p>
+                    <span>></span>
+                </a>
+                <a href="settingsandprivacy.html" class="profile-menu-link">
+                    <img src="setting.png">
+                    <p>setting & Privacy</p>
+                    <span>></span>
+                </a>
+                <a href="helpAndSupport.html" class="profile-menu-link">
+                    <img src="help.png">
+                    <p>Help & support</p>
+                    <span>></span>
+                </a>
+                <a href="display AndAccessbility.html" class="profile-menu-link">
+                    <img src="display.png">
+                    <p>Display & Accessibility</p>
+                    <span>></span>
+                </a>
+                <a href="loginregisteration.html" class="profile-menu-link">
+                    <img src="logout.png">
+                    <p>Logout</p>
+                    <span>></span>
+                </a>
+
+            </div>
+        </div>
+
+    </nav>
+    <div class="container2">
+        <div class="left-sidebar2">
+            <div class="sidebar-activity2" id="sidebarActivity">
+
+                <a href=""><i class="fa-solid fa-bookmark"></i>My Jobs</a>
+                <hr>
+                <a href="" >My Jobs</a>
+                <hr>
+                <a href=""> Saved Posts And Articles</a>
+                
+                
+            </div>
+            
+        </div>
+        <div class="main-content2">
+            
+            
+            <div class="profile-container2">
+                <div class="profile-description">
+                    <div class="search-items-for-job">
+                        <div class="heading-section-for-job">
+                        <h2 class="my-jobs">My Jobs</h2>
+                        
+                        <button class="Viewed-your-job">Applied</button>
+                    </div>
+                        <hr>
+                        
+                    </div>
+                    
+                    <div class="profile-viewer-container-for-job">
+                        
+                        <img src="hcltech.jpeg" alt="" class="jobimg">
+                        <div class="details-of-job">
+                 
+                            <h3>SQL SSIS developer</h3>
+                            <span>Programmers.io</span>
+                            <span>Pune (Remote)</span>
+                            <span>Applied 5mo ago</span>
+                            
+
+                        </div>
+                        <div class="connection-buttons-for-job">
+                        
+                        <span><i class="fa-solid fa-ellipsis"></i></span>
+                    </div>
+                    
+                    </div>
+                    <hr>
+                    <div class="profile-viewer-container-for-job">
+                        
+                        <img src="job1.webp" alt="" class="jobimg">
+                        <div class="details-of-job">
+                 
+                            <h3>ReactJs developer&nbsp;&nbsp;</h3>
+                            <span>Programmers.io</span>
+                            <span>Pune (Remote)</span>
+                            <span>Applied 5mo ago</span>
+                            
+
+                        </div>
+                        <div class="connection-buttons-for-job">
+                        
+                        <span><i class="fa-solid fa-ellipsis"></i></span>
+                    </div>
+                    
+                    </div>
+                    <hr>
+                    <div class="profile-viewer-container-for-job">
+                        
+                        <img src="jobs.png" alt="" class="jobimg">
+                        <div class="details-of-job">
+                 
+                            <h3>FrontEnd developer</h3>
+                            <span>Programmers.io</span>
+                            <span>Pune (Remote)</span>
+                            <span>Applied 5mo ago</span>
+                            
+
+                        </div>
+                        <div class="connection-buttons-for-job">
+                        
+                        <span><i class="fa-solid fa-ellipsis"></i></span>
+                    </div>
+                    
+                    </div>
+                    <hr>
+                    <div class="profile-viewer-container-for-job">
+                        
+                        <img src="jobs2.webp" alt="" class="jobimg">
+                        <div class="details-of-job">
+                 
+                            <h3>Java developer&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3>
+                            <span>Programmers.io</span>
+                            <span>Pune (Remote)</span>
+                            <span>Applied 5mo ago</span>
+                            
+
+                        </div>
+                        <div class="connection-buttons-for-job">
+                        
+                        <span><i class="fa-solid fa-ellipsis"></i></span>
+                    </div>
+                    
+                    </div>
+                    <hr>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="right-sidebar2">
+            <div class="sidebar-news2">
+
+                <p class="head-para">Anand Raj, learn what hiring managers look for in answers to top interview questions</p>
+
+                <section class="question-section">
+                    <img src="people1.webp" alt="">
+                    <span>Tell me about a time you worked with a difficult person.</span>
+                </section>
+                <hr>
+                <section class="question-section">
+                    <img src="people1.webp" alt="">
+                    <span>Tell me about a time you failed or made a mistake.</span>
+                </section>
+                <hr>
+                <section class="question-section">
+                    <img src="people1.webp" alt="">
+                    <span>
+                        Tell me about a time you disagreed with someone.</span>
+                </section>
+                <div class="all-que-section">
+                <a href="#" class="Experince-link-for-job">Show All Questions</a>
+            </div>
+
+            
+            </div>
+            <div class="sidebar-people">
+                <h3>People Also Viewed</h3>
+                <div class="sidebar-people-row">
+                    <img src="user-4.png">
+                    <div>
+                        <h2>XYZa</h2>
+                        <p>Head Of technical department at XYZ</p>
+                        <a href="#">Connect</a>
+                    </div>
+                </div>
+                <div class="sidebar-people-row">
+                    <img src="user-3.png">
+                    <div>
+                        <h2>XYZ</h2>
+                        <p>Head Of technical department at ABC</p>
+                        <a href="#">Connect</a>
+                    </div>
+                </div>
+                <div class="sidebar-people-row">
+                    <img src="user-5.png">
+                    <div>
+                        <h2>XYZ</h2>
+                        <p>Head Of technical department at ABC</p>
+                        <a href="#">Connect</a>
+                    </div>
+                </div>
+                <div class="sidebar-people-row">
+                    <img src="user-2.png">
+                    <div>
+                        <h2>XYZ</h2>
+                        <p>Head Of technical department at ABC</p>
+                        <a href="#">Connect</a>
+                    </div>
+                </div>
+                <div class="sidebar-people-row">
+                    <img src="user-2.png">
+                    <div>
+                        <h2>XYZ</h2>
+                        <p>Head Of technical department at ABC</p>
+                        <a href="#">Connect</a>
+                    </div>
+                </div>
+            </div>
+            <div class="sidebar-useful-links">
+                <a href="#">About</a>
+                <a href="#">Accessibility</a>
+                <a href="#">Help center</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Advertising</a>
+                <a href="#">Get the App</a>
+                <a href="#">More</a>
+                <div class="copyright-msg">
+                    <img src="logo.png">
+                    <p>Linkedup &#169; 2023. All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+
+</html>

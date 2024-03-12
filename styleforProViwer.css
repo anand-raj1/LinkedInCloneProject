@@ -1,0 +1,52 @@
+.profile-viewer-container{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.profile-viewer-container img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 60px;
+    filter: blur(4px);
+}
+.profile-viewer-container span.for-work{
+    margin-right: 110px;
+} 
+.profile-viewer-container span i{
+    margin-left: 50px;
+    font-size: 20px;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.profile-viewer-container span i:hover{
+    border: 2px solid black;
+}
+.Viewed-your-profile{
+    margin: 10px;
+    padding: 5px;
+    padding-left: 10px;
+    border-radius: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #01754f;
+    color: #fff;
+    font-size: 1rem;
+}
+.Viewed-your-profile i{
+    padding-right: 4px;
+    padding-left: 4px;
+}
+
+.search-items p{
+    padding-left: 15px;
+}
+.sidebar-ad{
+    margin: 0;
+}
+

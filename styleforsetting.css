@@ -1,0 +1,122 @@
+.conatainer{
+    display: flex;
+}
+.container-for-sidebar{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.container-for-sidebar div {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    height: 90vh;
+    left: 0;
+    background: #fff;
+    width: 400px;
+    overflow: hidden;
+    box-shadow: 0 20px 35px rgba(0,0 , 0, 0.1);
+}
+.logo-for-sidebar{
+    text-align: center;
+    display: flex;
+   justify-content: center;
+}
+
+.logo-for-sidebar img{
+    width: 40px;
+    border-radius: 50%;
+    margin: 10px;
+    /* margin-top: 30px; */
+    /* margin-right: 30px; */
+}
+.logo-for-sidebar p.nav-for-dashboard{
+    margin-top: -20px;padding-top: 10px;
+}
+.logo-for-sidebar span{
+    font-weight: bold;
+    padding-top: 10px;
+    padding-right: 20px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+a.logo-for-sidebar{
+    position: relative;
+    color: rgb(85, 83, 83);
+    font-size: 30px;
+    display: table;
+    width: 340px;
+    padding: 14px;
+    text-align: center;
+}
+.container-for-sidebar div i{
+    position: relative;
+    width: 70px;
+    height: 40px;
+    top: 14px;
+    font-size: 25px;
+    text-align: center;
+
+}
+.container-for-sidebar div ul li{
+    padding-top: 20px;
+}
+.container-for-sidebar div ul li a:hover{
+    color: lightgreen;
+}
+
+.nav-item{
+    position: relative;
+    top: 12px;
+    margin-left: 10px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+ .search-items{
+    height:250px;
+    width: 95%;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.search-items h3{
+    padding: 20px;
+} 
+.search-items p{
+    padding: 10px 0 10px 20px;
+}
+.search-items i{
+    float: right;
+    margin-top: 10px;
+}
+.search-items hr{
+    margin: 10px 10px;
+}
+.search-items2{
+    margin-top: 20px;
+    height: 150px;
+    width: 95%;
+    margin-left: 10px;
+    /* margin-top: 10px; */
+    background: #fff;
+    box-shadow: 0 20px 35px rgba(0,0 , 0, 0.1);
+}
+.search-items2 h3{
+    padding: 20px; 
+    
+}
+.search-items2 p{
+    padding: 10px 0 10px 20px; 
+    
+}
+.search-items2 i{
+    float: right; 
+    margin-top: -35px;
+    margin-right: 30px;
+    font-size: 25px;
+    
+}
+.search-items2 hr{
+   margin: 10px 10px;
+    
+}

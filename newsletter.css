@@ -1,0 +1,11 @@
+.profile-description span.for-news-span{
+    padding-top: 20px;
+}
+.profile-description hr{
+    margin-bottom: 25px;
+}
+.profile-viewer-container-for-connection .hclimg{
+    width: 100px;
+    height: 100px;
+    border-radius: 0;
+}

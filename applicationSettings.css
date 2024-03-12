@@ -1,0 +1,63 @@
+.container-for-app{
+    margin: 20px 40px 0 150px;
+    width: 80%;
+    
+    flex-basis: 60%;
+    background: #fff;
+}
+.container-for-app a{
+    padding: 10px;
+    margin-top: 15px;
+}
+.main-content-f0r-app{
+    height: 100%;
+}
+.main-content-f0r-app h1{
+    padding: 20px;
+}
+.main-content-f0r-app hr{
+    margin-top: 20px;
+}
+.main-content-f0r-app .inp-btn{
+   background: transparent;
+   border: 2px solid #0a66c2;
+   color: #0a66c2;
+   padding: 5px 20px;
+   font-size: 1.1rem;
+   border-radius: 30px;
+    margin: 30px 20px;
+    cursor: pointer;
+}
+.app-data{
+    margin-left: 20px;
+}
+.app-data h3{
+    padding-top: 20px;
+}
+.app-data span{
+    font-size: 13px;
+    padding-top: 10px;
+    line-height: 15px;
+}
+.app-data span a{
+    color: #0a66c2;
+    font-weight: bold;
+}
+.safety-area{
+    border: 1px solid gray;
+    margin: 40px 50px;
+    padding: 15px;   
+}
+.safety-area span i{
+    font-size: 25px;
+    margin-right: 10px;
+}
+.safety-area span a{
+    color: #0a66c2;
+    font-weight: bold;
+}
+@media only screen and (max-width:600px){
+    .container-for-app{
+        margin-left: 50px;
+    }
+}

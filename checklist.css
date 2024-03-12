@@ -1,0 +1,22 @@
+.checkList-area{
+    padding-left: 25px;
+}
+.check-inp{
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+.check-inp input{
+    padding-bottom: 15px;
+    font-size: 15px;
+}
+.check-inp label span{
+    padding-bottom: 10px;
+    padding-left: 20px;
+    margin-top: -10px;
+
+}
+.check-inp input.largeCheckbox{
+    width: 20px;
+    height: 20px;
+    padding-right: 10px;
+}
